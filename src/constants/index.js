@@ -97,7 +97,7 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "C#",
+    name: "threejs",
     icon: threejs,
   },
   {

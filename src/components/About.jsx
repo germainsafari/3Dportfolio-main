@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a proficient software developer with a 
+        I am a proficient software engineer with a 
         strong background in Python and JavaScript.
         I'm adept with frameworks such as React, Node.js, and Django. 
         My ability to rapidly grasp new concepts combined with a deep
