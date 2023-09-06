@@ -214,7 +214,7 @@ const projects = [
     live_link: "https://helnet-app.com",
   },
   {
-    name: "Escape",
+    name: "Espace",
     link: "",
     description:
       "A customer relationship management software that connect leads and agents",
