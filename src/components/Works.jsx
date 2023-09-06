@@ -48,7 +48,9 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <a href={source_code_link} target="_blank" rel="noopener noreferrer">
+            <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          </a>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
@@ -66,6 +68,7 @@ const ProjectCard = ({
     </motion.div>
   );
 };
+
 
 const Works = () => {
   return (
@@ -89,10 +92,11 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+          {projects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))}
       </div>
+
     </>
   );
 };

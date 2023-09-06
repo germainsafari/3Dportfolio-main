@@ -42,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "software engineer",
+    title: "Machine learning",
     icon: web,
   },
   {
@@ -192,9 +192,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Maisha",
+    name: "Helnet",
     description:
-      "Web-based platform that allows users to collaborate working on differenc projects.",
+      "Web-based platform that allows users to collaborate working on different projects.",
     tags: [
       {
         name: "Django",
@@ -210,34 +210,36 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/germainsafari/Helnet",
+    live_link: "https://helnet-app.com",
   },
   {
-    name: "Favorite Movies",
-    link: "https://topmovies-2hbr.onrender.com/",
+    name: "Escape",
+    link: "",
     description:
-      "Web application that enables users to add their favorite movies",
+      "A customer relationship management software that connect leads and agents",
     tags: [
       {
-        name: "Flask",
+        name: "Advanced Django",
         color: "blue-text-gradient",
       },
       {
-        name: "SQLAlchemy",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/germainsafari/Top-movies",
+    source_code_link: "https://github.com/germainsafari/Espace",
+    live_link: "" , //https://espace-app.com
   },
   {
     name: "My portfolio",
     description:
-      "A 3D portfolio that showcase my exptise.",
+      "A 3D portfolio that showcase my expertise.",
     tags: [
       {
         name: "Threejs",
@@ -253,7 +255,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/germainsafari/3Dportfolio-main",
+    live_link: "" // https://my-portfolio.com
   },
 ];
 
