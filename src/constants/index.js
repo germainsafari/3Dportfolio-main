@@ -211,7 +211,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/germainsafari/Helnet",
-    live_link: "https://helnet-app.com",
+    live_link: "https://helnet.onrender.com/",
   },
   {
     name: "Espace",
@@ -234,7 +234,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/germainsafari/Espace",
-    live_link: "" , //https://espace-app.com
+    live_link: "https://espace.onrender.com" , //https://espace-app.com
   },
   {
     name: "My portfolio",
