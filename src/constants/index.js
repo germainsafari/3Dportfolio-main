@@ -166,27 +166,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Beatiful interface",
-    name: "mentor x",
-    designation: "mentor",
-    company: "Random",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Great job Germain! Looking forward to seeing what you come up with next.",
+    name: "Chris cloude",
+    designation: "software engineer",
+    company: "Capgemini",
+    image: "https://media.licdn.com/dms/image/D4D03AQHskFLYFlXWZw/profile-displayphoto-shrink_800_800/0/1687092007500?e=1699488000&v=beta&t=C3dx4MA9RfrXsaBdbVA-NF836UwDxV8HUziZBkBCp9w",
   },
   {
     testimonial:
-      "Beatiful interface",
-    name: "client x",
-    designation: "client",
-    company: "Random",
+      "Well done Germain, love it",
+    name: "Damien Niyonshuti",
+    designation: "software engineer",
+    company: "Ford",
+    image: "https://media.licdn.com/dms/image/D5603AQGQrGScW8VBBQ/profile-displayphoto-shrink_800_800/0/1690586498630?e=1699488000&v=beta&t=qq6lsiHvyYn7fHsKEvtOifPTH_AyDR6UegIAlh1dWsk",
+  },
+  {
+    testimonial:
+      "I've had the opportunity to use Escape CRM in my business and I must say I'm genuinely impressed.",
+    name: "SAFARI Evariste",
+    designation: "CEO",
+    company: "IMPANO Maize Flour",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "Beatiful interface",
-    name: "client x",
-    designation: "client",
-    company: "Random",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 

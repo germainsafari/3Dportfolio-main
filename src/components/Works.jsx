@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link, // Added this prop
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -48,7 +49,8 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <a href={source_code_link} target="_blank" rel="noopener noreferrer">
+          {/* Updated this anchor to point to the live_link */}
+          <a href={live_link} target="_blank" rel="noopener noreferrer">
             <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           </a>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
