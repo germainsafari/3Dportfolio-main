@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  damien,
 } from "../assets";
 
 export const navLinks = [
@@ -178,7 +179,7 @@ const testimonials = [
     name: "Damien Niyonshuti",
     designation: "software engineer",
     company: "Ford",
-    image: "https://media.licdn.com/dms/image/D5603AQGQrGScW8VBBQ/profile-displayphoto-shrink_800_800/0/1690586498630?e=1699488000&v=beta&t=qq6lsiHvyYn7fHsKEvtOifPTH_AyDR6UegIAlh1dWsk",
+    image: "damien",
   },
   {
     testimonial:
