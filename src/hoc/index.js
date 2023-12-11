@@ -6,7 +6,12 @@ const SectionWrapper = () => {
   return (
     // Your JSX for the SectionWrapper component
     <div>
-      {/* Content of the SectionWrapper component */}
+      <div className="section-wrapper">
+      <h2 className="section-title">Section Title</h2>
+      <div className="section-content">
+        {children}
+      </div>
+    </div>
     </div>
   );
 };
