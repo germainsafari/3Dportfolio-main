@@ -20,11 +20,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import kubernetes from "./tech/kubernetes.png";
+import azure from "./tech/azure.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Admind_logo_short_RGB from "./company/Admind_logo_short_RGB.png";
+import LTIMindtree from "./company/LTIMindtree.png";
+import Stratifylogo from "./company/stratifylogo.png";
+import damien from "./damien.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +59,17 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  kubernetes,
+  azure,
   meta,
   shopify,
   starbucks,
   tesla,
+  Admind_logo_short_RGB,
+  LTIMindtree,
+  Stratifylogo,
+  damien,
   carrent,
   jobit,
   tripguide,

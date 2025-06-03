@@ -47,15 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a proficient software engineer with a 
-        strong background in Python and JavaScript.
-        I'm adept with frameworks such as React, Node.js, and Django. 
-        My ability to rapidly grasp new concepts combined with a deep
-        commitment to working hand-in-hand with clients allows me to develop robust,
-        scalable,and intuitive solutions tailored to real-world
-        challenges. I'm eager to collaborate and 
-        transform your vision into reality!
-
+        I am a Machine Learning Engineer Founder with extensive experience in AI/ML solutions development and deployment. 
+        My expertise spans across cloud services, LLMs, deep learning, NLP, and computer vision applications. 
+        I'm passionate about leveraging cutting-edge technologies to solve complex business problems and drive innovation.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

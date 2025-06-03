@@ -23,7 +23,16 @@ import {
   jobit,
   tripguide,
   threejs,
-
+  damien,
+  Admind_logo_short_RGB,
+  LTIMindtree,
+  Stratifylogo,
+  python,
+  kubernetes,
+  azure,
+ 
+  
+  
 } from "../assets";
 
 export const navLinks = [
@@ -43,125 +52,150 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Machine learning",
+    title: "Machine Learning",
     icon: web,
   },
   {
-    title: "Front-End Developer",
+    title: "Cloud infrastructure",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI & GenAI consultation",
     icon: backend,
   },
   {
-    title: "Technical support Engineer",
+    title: "Software Development",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
+    name: "Python",
     icon: javascript,
   },
   {
-    name: "React JS",
-    icon: typescript,
-  },
-  {
-    name: "Python",
+    name: "TensorFlow",
     icon: reactjs,
   },
   {
-    name: "Django",
-    icon: redux,
+    name: "PyTorch",
+    icon: python,
   },
   {
-    name: "Tailwind CSS",
+    name: "Azure ML",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Kubernetes",
+    icon: typescript,
+  },
+  {
+    name: "React",
+    icon: azure,
+  },
+  {
+    name: "Django",
     icon: nodejs,
   },
   {
-    name: "Postgresql",
+    name: "PostgreSQL",
+    icon: kubernetes,
+  },
+  {
+    name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "threejs",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
     name: "AWS",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
-  // {
-  //   title: "xx",
-  //   company_name: "xx",
-  //   icon: starbucks,
-  //   iconBg: "#383E56",
-  //   date: "xx",
-  //   points: [
-  //     ,
-  //   ],
-  // },
-  // {
-  //   title: "xx",
-  //   company_name: "xx",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "xx",
-  //   points: [
-  //     ,
-  //   ],
-  // },
   {
-    title: "software Engineer Intern",
-    company_name: "GaoTek Inc",
-    icon: shopify,
+    title: "Machine Learning Engineer - Team Lead",
+    company_name: "Admind Branding & Communication",
+    icon: Admind_logo_short_RGB,
     iconBg: "#383E56",
-    date: "July 2023 - Present",
+    date: "April 2025 - Present",
     points: [
-      "Assisted in coding and testing of LabVIEW in Digital Oscilloscopes, leading to the successful development and launch of a new software feature",
-      "Contributed to system optimization efforts, resulting in a 20% reduction in Ecommerce server load.",
-      "Played a key role in identifying and fixing bugs, thereby improving overall system stability.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and deployed machine learning models to enhance marketing campaign effectiveness, including audience segmentation, customer sentiment analysis, and engagement prediction.",
+      "Built NLP pipelines to extract insights from unstructured client data (e.g., surveys, social media, and brand communications), improving content strategy decisions.",
+      "Implemented computer vision models for automated brand asset classification and logo detection across digital content, increasing asset reuse and consistency by 30%.",
+      "Collaborated with creative and data teams to integrate ML-driven personalization into branding materials, driving higher campaign ROI.",
+      "Automated internal workflows using ML-based recommendation systems for asset tagging, brief generation, and brand guideline adherence.",
+      "Led model training and evaluation using Python (scikit-learn, TensorFlow, Hugging Face), deployed via Docker and CI/CD pipelines.",
+      "Developed and maintained automated workflows in n8n to streamline data processing between AI models, content platforms, and internal tools.",
+      "Implemented vector databases (Pinecone, Weaviate) to power semantic search and AI-driven content retrieval across brand assets."
     ],
   },
   {
-    title: "Technical Support Engineer",
+    title: "Azure Machine Learning Engineer - SME",
+    company_name: "LTIMindtree / Microsoft",
+    icon: LTIMindtree,
+    iconBg: "#E6DEDD",
+    date: "December 2023 - April 2025",
+    points: [
+      "Configured and managed Azure Machine Learning (AML) networking infrastructure including private endpoints, V-Nets peering, NSG rules, Route Tables and Azure Firewalls for secure communication.",
+      "Utilized Azure Auto ML, Prompt-flow, Designer, and Jupyter Notebook for automated model selection and to deploy machine learning models as batch or Online endpoints.",
+      "Automated data processing and feature engineering workflows using Azure data factory and azure Data-bricks and pyspark.",
+      "Leveraged Azure container Registry, Azure container instance, Azure Kubernetes Service (AKS), Compute instances, and compute clusters to deploy models for real-time inferencing.",
+      "Designed and trained deep learning models using Convolutional neural networks for image processing and classification leveraging AML GPU accelerated computes.",
+      "Implemented AI solutions using Azure Open-AI Services, including GPT models for NLP to fine-tune pre-trained models for domain specific tasks.",
+      "Implemented Retrieval-Augmented Generation(RAG) workflows by integrating Azure Cognitive Search and ChromaDB enabling contextual responses for NLP applications.",
+      "Troubleshoot and resolved complex L4 & L7 issues related to Azure Front Door, Azure Load Balancer &Traffic Manager Application Gateway, VPN Gateways, Express-route for high availability architecture."
+    ],
+  },
+  {
+    title: "Co-Founder",
+    company_name: "Stratify AI",
+    icon: Stratifylogo,
+    iconBg: "#383E56",
+    date: "January 2024 - Present",
+    points: [
+      "AI consultation and autonomous chatbot development leveraging advanced NLP models like GPT, GenAI, Deeplearning.",
+      "Worked with agencies like ADMIND, BOSAR, EYE OPTICS consulting and building GenAI solutions for their businesses.",
+      "Configuration of Azure tools for small businesses, Model training and fine tuning, applications development."
+    ],
+  },
+  {
+    title: "Networking Support Engineer",
     company_name: "Transcosmos Inc",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Nov 2021 - Present",
+    date: "November 2021 - November 2023",
     points: [
-      "Configuring hardware, software, networks, and printers on Windows/Linux.",
-      "Manage IT infra-systems and managed router configuration with CLI and Putty, servers, switches, routers, modems, firewalls, and UPS.",
-      "Setting up AD accounts for staff, Group policy management, and working with OU and domain controller.",
-      "Conducted regular system maintenance tasks, including backups, system updates, and security checks.",
+      "Installed and Maintained 100+ Windows/Linux/ HyperV/ VMware systems, ensuring a 98% uptime across all devices.",
+      "Managed and optimized a network of 50+ servers, routers, switches over WAN/LAN reducing network outages by 40%.",
+      "Demonstrated advanced troubleshooting of network fundamentals on L3 and L7 of the OSI model(DNS,DHCP,TCPIP).",
+      "Provided support on Azure cloud services such as AKS, VNet, AAD, SQL DB, Blob Storage, VMs, ARM, etc.",
+      "Proficient in windows server administration and troubleshooting using tools such as Wireshark, psping, ping, nslookup, dig and network protocols."
     ],
   },
+  {
+    title: "Software Engineer",
+    company_name: "GaoTek Inc",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "June 2019 - September 2023",
+    points: [
+      "Designed and developed RESTful APIs using Python, Django Rest Framework on Token Based authentication(JWT) and authorization(OAuth) on Machine learning systems.",
+      "Built dynamic and responsive user interfaces with React.js/Next.js and managed state with Redux and Developed server-side logic using Node.js and Express.js.",
+      "Utilized Git for version control, managed branching strategies, and performed code reviews with Pull requests.",
+      "Automated deployment processes with Jenkins, Github actions, Azure Devops and Docker to design robust CI/CD pipelines and workflows.",
+      "Designed and optimized database schemas for PostgreSQL, Chromadb, MongoDB for NoSQL storage solutions in Azure.",
+      "Managed SDLC using agile methodologies and scrum frameworks, ensuring timely delivery and adaptability."
+    ],
+  }
 ];
 
 const testimonials = [
@@ -212,7 +246,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/germainsafari/Helnet",
-    live_link: "https://helnet.onrender.com/",
+    live_link: "https://helnet.onrender.com",
   },
   {
     name: "Espace",
@@ -235,7 +269,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/germainsafari/Espace",
-    live_link: "https://espace.onrender.com" , //https://espace-app.com
+    live_link: "https://escape-ja2e.onrender.com" , //https://espace-app.com
   },
   {
     name: "My portfolio",
@@ -257,7 +291,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/germainsafari/3Dportfolio-main",
-    live_link: "" // https://my-portfolio.com
+    live_link: "https://sfrgermain.netlify.app/" // https://my-portfolio.com
   },
 ];
 
