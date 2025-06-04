@@ -99,6 +99,17 @@ const Works = () => {
           ))}
       </div>
 
+      {/* View Other Projects Button */}
+      <div className="mt-10 flex justify-center">
+        <a
+          href="https://stratifyaico.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[#0A66C2] text-white font-bold py-3 px-8 rounded-full hover:bg-[#084B9C] transition duration-300 shadow-md text-lg"
+        >
+          View More Projects
+        </a>
+      </div>
     </>
   );
 };
