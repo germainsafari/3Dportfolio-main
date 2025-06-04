@@ -36,6 +36,8 @@ import damien from "./damien.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import linkedinProfile from "./linkedin/germain.jpg";
+import linkedinBackground from "./linkedin/linkedinbg.png";
 
 export {
   logo,
@@ -73,4 +75,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  linkedinProfile,
+  linkedinBackground,
 };

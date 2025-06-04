@@ -18,12 +18,33 @@ const Navbar = () => {
       } else {
         setScrolled(false);
       }
+
+      // Update active section based on scroll position
+      const sections = navLinks.map(link => document.getElementById(link.id));
+      const currentSection = sections.find(section => {
+        if (section) {
+          const rect = section.getBoundingClientRect();
+          return rect.top <= 100 && rect.bottom >= 100;
+        }
+        return false;
+      });
+
+      if (currentSection) {
+        setActive(currentSection.id);
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handleNavClick = (id) => {
+    setActive(id);
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <nav
@@ -38,8 +59,8 @@ const Navbar = () => {
           to='/'
           className='flex items-center gap-2'
           onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
+            setActive("home");
+            window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
@@ -54,9 +75,9 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+                active === nav.id ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer transition-colors duration-300`}
+              onClick={() => handleNavClick(nav.id)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
@@ -81,11 +102,11 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                    active === nav.id ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);
-                    setActive(nav.title);
+                    handleNavClick(nav.id);
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>

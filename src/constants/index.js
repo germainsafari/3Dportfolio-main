@@ -37,12 +37,16 @@ import {
 
 export const navLinks = [
   {
+    id: "home",
+    title: "Home",
+  },
+  {
     id: "about",
     title: "About",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -205,7 +209,7 @@ const testimonials = [
     name: "Chris cloude",
     designation: "software engineer",
     company: "Capgemini",
-    image: "https://media.licdn.com/dms/image/D4D03AQHskFLYFlXWZw/profile-displayphoto-shrink_800_800/0/1687092007500?e=1699488000&v=beta&t=C3dx4MA9RfrXsaBdbVA-NF836UwDxV8HUziZBkBCp9w",
+    image: "https://randomuser.me/api/portraits/men/59.jpg",
   },
   {
     testimonial:
@@ -213,7 +217,7 @@ const testimonials = [
     name: "Damien Niyonshuti",
     designation: "software engineer",
     company: "Ford",
-    image: "damien",
+    image: damien,
   },
   {
     testimonial:
