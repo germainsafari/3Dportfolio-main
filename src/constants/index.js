@@ -132,14 +132,14 @@ const experiences = [
     iconBg: "#383E56",
     date: "April 2025 - Present",
     points: [
-      "Developed and deployed machine learning models to enhance marketing campaign effectiveness, including audience segmentation, customer sentiment analysis, and engagement prediction.",
-      "Built NLP pipelines to extract insights from unstructured client data (e.g., surveys, social media, and brand communications), improving content strategy decisions.",
-      "Implemented computer vision models for automated brand asset classification and logo detection across digital content, increasing asset reuse and consistency by 30%.",
-      "Collaborated with creative and data teams to integrate ML-driven personalization into branding materials, driving higher campaign ROI.",
-      "Automated internal workflows using ML-based recommendation systems for asset tagging, brief generation, and brand guideline adherence.",
-      "Led model training and evaluation using Python (scikit-learn, TensorFlow, Hugging Face), deployed via Docker and CI/CD pipelines.",
-      "Developed and maintained automated workflows in n8n to streamline data processing between AI models, content platforms, and internal tools.",
-      "Implemented vector databases (Pinecone, Weaviate) to power semantic search and AI-driven content retrieval across brand assets."
+      "Designed, fine-tuned, and deployed Large Language Models (LLMs) for intelligent document understanding, automated creative brief generation, and persona-driven marketing content, leveraging platforms such as Hugging Face Transformers, OpenAI GPT APIs, and LangChain.",
+      "Built end-to-end NLP pipelines for extracting actionable insights from unstructured data (surveys, social media, client communications), utilizing named entity recognition (NER), sentiment analysis, and text summarization to drive strategic content decisions and client recommendations.",
+      "Developed OCR and document intelligence solutions for automated data extraction, content digitization, and brand asset cataloging from PDFs, scanned images, and diverse file formats using Tesseract, PaddleOCR, and Azure/AWS OCR APIs.",
+      "Engineered and deployed advanced computer vision models for brand asset recognition, logo detection, and automated content classification, increasing digital asset reuse, compliance, and brand consistency by 30%+ across campaigns.",
+      "Integrated GenAI capabilities for automatic persona creation, creative brief drafting, and AI-powered asset recommendations within internal CMS and CRM tools, accelerating project turnaround and personalization at scale.",
+      "Implemented robust ML-powered recommendation systems for smart asset tagging, creative brief generation, and brand guideline enforcement—automating repetitive workflows and improving compliance using vector databases (Pinecone, Weaviate) and semantic search.",
+      "Streamlined cross-system data flows using n8n for real-time data ingestion and processing, connecting AI/ML models, content management systems, and internal tools to enable real-time branding insights and reduce manual workload.",
+      "Collaborated with creative, data, and marketing teams to translate strategic branding objectives into ML/AI deliverables, ensuring measurable impact and ongoing alignment with evolving business goals."
     ],
   },
   {
